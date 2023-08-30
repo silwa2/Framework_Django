@@ -1,0 +1,391 @@
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2581
+"GET /cube/ HTTP/1.1" 200 1
+"GET /cube/ HTTP/1.1" 200 1
+"GET /cube/ HTTP/1.1" 200 1
+"GET /heads_tails HTTP/1.1" 301 0
+"GET /heads_tails/ HTTP/1.1" 200 5
+"GET /heads_tails/ HTTP/1.1" 200 5
+"GET /heads_tails/ HTTP/1.1" 200 5
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app2\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app2\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app2\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2581
+"GET /heads_tails/ HTTP/1.1" 200 5
+"GET /heads_tails/ HTTP/1.1" 200 5
+"GET /heads_tails/ HTTP/1.1" 200 5
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app2\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\task_django\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2581
+"GET /heads_tails/ HTTP/1.1" 200 5
+"GET /heads_tails/ HTTP/1.1" 200 5
+"GET /heads_tails/ HTTP/1.1" 200 5
+"GET /heads_tails/ HTTP/1.1" 200 5
+"GET /heads_tails/ HTTP/1.1" 200 5
+"GET /heads_tails/ HTTP/1.1" 200 5
+"GET /heads_tails/ HTTP/1.1" 200 5
+"GET /heads_tails/ HTTP/1.1" 200 5
+"GET /heads_tails/ HTTP/1.1" 200 5
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app2\views.py changed, reloading.
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app2\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\task_django\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 10
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py", line 7, in index
+    return render(request, 'index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+"GET / HTTP/1.1" 500 78319
+Not Found: /index
+"GET /index HTTP/1.1" 404 2425
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py", line 7, in index
+    return render(request, 'index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+"GET / HTTP/1.1" 500 78319
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py", line 7, in index
+    return render('index.html')
+           ^^^^^^^^^^^^^^^^^^^^
+TypeError: render() missing 1 required positional argument: 'template_name'
+"GET / HTTP/1.1" 500 63674
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py", line 7, in index
+    return render('index.html')
+           ^^^^^^^^^^^^^^^^^^^^
+TypeError: render() missing 1 required positional argument: 'template_name'
+"GET / HTTP/1.1" 500 63811
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 302 0
+Not Found: /index.html
+"GET /index.html HTTP/1.1" 404 2440
+Not Found: /index.html
+"GET /index.html HTTP/1.1" 404 2440
+"GET / HTTP/1.1" 302 0
+Not Found: /index.html
+"GET /index.html HTTP/1.1" 404 2440
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 302 0
+Not Found: /index.html
+"GET /index.html HTTP/1.1" 404 2440
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 10
+"GET / HTTP/1.1" 200 10
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py", line 7, in index
+    return render(request, 'my_app/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_app/index.html
+"GET / HTTP/1.1" 500 78453
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py", line 7, in index
+    return render(request, 'my_app/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_app/index.html
+"GET / HTTP/1.1" 500 78590
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py", line 7, in index
+    return render(request, 'my_app/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_app/index.html
+"GET / HTTP/1.1" 500 78453
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py", line 7, in index
+    return render(request, 'my_app/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_app/index.html
+"GET / HTTP/1.1" 500 78590
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py", line 7, in index
+    return render(request, 'my_app/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_app/index.html
+"GET / HTTP/1.1" 500 78590
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py", line 7, in index
+    return render(request, 'my_app/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_app/index.html
+"GET / HTTP/1.1" 500 78590
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 338
+"GET / HTTP/1.1" 200 338
+"GET / HTTP/1.1" 200 338
+"GET / HTTP/1.1" 200 338
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 421
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1610
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1493
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1492
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1511
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1688
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1505
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 955
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1014
+"GET / HTTP/1.1" 200 1015
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /about HTTP/1.1" 301 0
+"GET /about/ HTTP/1.1" 200 1015
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Project_HW\task_django\my_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1844
+Not Found: /images/image.png
+Not Found: /styles/style.css
+"GET /images/image.png HTTP/1.1" 404 2458
+"GET /styles/style.css HTTP/1.1" 404 2458
+Not Found: /index.html
+"GET /index.html HTTP/1.1" 404 2440
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1825
+Not Found: /styles/style.css
+"GET /styles/style.css HTTP/1.1" 404 2458
+Not Found: /images/image.png
+"GET /images/image.png HTTP/1.1" 404 2458
+Not Found: /my_app/index.html
+"GET /my_app/index.html HTTP/1.1" 404 2461
+"GET / HTTP/1.1" 200 1818
+Not Found: /styles/style.css
+"GET /styles/style.css HTTP/1.1" 404 2458
+Not Found: /images/image.png
+"GET /images/image.png HTTP/1.1" 404 2458
+Not Found: /my_app/about.html
+"GET /my_app/about.html HTTP/1.1" 404 2461
+Not Found: /index.html
+"GET /index.html HTTP/1.1" 404 2440
+"GET / HTTP/1.1" 200 1818
+Not Found: /styles/style.css
+"GET /styles/style.css HTTP/1.1" 404 2458
+Not Found: /images/image.png
+"GET /images/image.png HTTP/1.1" 404 2458
+"GET /about/ HTTP/1.1" 200 1015
+"GET / HTTP/1.1" 200 1813
+Not Found: /styles/style.css
+"GET /styles/style.css HTTP/1.1" 404 2458
+Not Found: /images/image.png
+"GET /images/image.png HTTP/1.1" 404 2458
+"GET /about/ HTTP/1.1" 200 1015
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1796
+Not Found: /images/image.png
+Not Found: /styles/style.css
+"GET /images/image.png HTTP/1.1" 404 2458
+"GET /styles/style.css HTTP/1.1" 404 2458
+"GET / HTTP/1.1" 200 1796
+Not Found: /styles/style.css
+"GET /styles/style.css HTTP/1.1" 404 2458
+Not Found: /images/image.png
+"GET /images/image.png HTTP/1.1" 404 2458
+"GET /about/ HTTP/1.1" 200 1015
+"GET /about/ HTTP/1.1" 200 1015
+"GET / HTTP/1.1" 200 1796
+Not Found: /styles/style.css
+"GET /styles/style.css HTTP/1.1" 404 2458
+Not Found: /images/image.png
+"GET /images/image.png HTTP/1.1" 404 2458
+"GET /about/ HTTP/1.1" 200 1015
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1803
+Not Found: /my_app/images/image.png
+"GET /my_app/images/image.png HTTP/1.1" 404 2479
+Not Found: /styles/style.css
+"GET /styles/style.css HTTP/1.1" 404 2458
+"GET /about/ HTTP/1.1" 200 1015
+"GET / HTTP/1.1" 200 1803
+Not Found: /styles/style.css
+Not Found: /my_app/images/image.png
+"GET /styles/style.css HTTP/1.1" 404 2458
+"GET /my_app/images/image.png HTTP/1.1" 404 2479
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1887
+Not Found: /styles/style.css
+"GET /styles/style.css HTTP/1.1" 404 2458
+"GET / HTTP/1.1" 200 1887
+Not Found: /styles/style.css
+"GET /styles/style.css HTTP/1.1" 404 2458
+"GET /about/ HTTP/1.1" 200 1015
+"GET / HTTP/1.1" 200 1842
+Not Found: /styles/style.css
+"GET /styles/style.css HTTP/1.1" 404 2458
+"GET / HTTP/1.1" 200 1783
+Not Found: /styles/style.css
+"GET /styles/style.css HTTP/1.1" 404 2458
+"GET /about/ HTTP/1.1" 200 1015

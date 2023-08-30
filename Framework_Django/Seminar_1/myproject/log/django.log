@@ -1,0 +1,91 @@
+Watching for file changes with StatReloader
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Seminar_1\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Seminar_1\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Seminar_1\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2169
+Not Found: /about/
+"GET /about/ HTTP/1.1" 404 2205
+"GET /prefix/ HTTP/1.1" 200 13
+Not Found: /prefix/abaut
+"GET /prefix/abaut HTTP/1.1" 404 2458
+"GET /prefix/about HTTP/1.1" 301 0
+"GET /prefix/about/ HTTP/1.1" 200 27
+C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Seminar_1\myproject\myproject\settings.py changed, reloading.
+INFO 2023-08-28 11:39:45,735 autoreload 10608 14988 Watching for file changes with StatReloader
+WARNING 2023-08-28 11:39:48,705 log 10608 10384 Not Found: /
+WARNING 2023-08-28 11:39:48,760 basehttp 10608 10384 "GET / HTTP/1.1" 404 2169
+INFO 2023-08-28 11:40:03,141 views 10608 10384 Index page accessed
+INFO 2023-08-28 11:40:03,143 basehttp 10608 10384 "GET /prefix/ HTTP/1.1" 200 13
+ERROR 2023-08-28 11:40:10,645 views 10608 10384 Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Seminar_1\myproject\myapp\views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2023-08-28 11:40:10,648 basehttp 10608 10384 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2023-08-28 15:45:49,834 autoreload 8544 8496 Watching for file changes with StatReloader
+INFO 2023-08-28 16:04:24,966 autoreload 4880 14664 Watching for file changes with StatReloader
+WARNING 2023-08-28 16:04:27,562 log 4880 1508 Not Found: /
+WARNING 2023-08-28 16:04:27,564 basehttp 4880 1508 "GET / HTTP/1.1" 404 2169
+WARNING 2023-08-28 16:04:40,226 log 4880 1508 Not Found: /run
+WARNING 2023-08-28 16:04:40,228 basehttp 4880 1508 "GET /run HTTP/1.1" 404 2196
+INFO 2023-08-28 16:04:50,907 basehttp 4880 1508 "GET /prefix HTTP/1.1" 301 0
+INFO 2023-08-28 16:04:50,915 views 4880 1492 Index page accessed
+INFO 2023-08-28 16:04:50,917 basehttp 4880 1492 "GET /prefix/ HTTP/1.1" 200 13
+WARNING 2023-08-28 16:04:59,080 log 4880 1492 Not Found: /prefix/run
+WARNING 2023-08-28 16:04:59,083 basehttp 4880 1492 "GET /prefix/run HTTP/1.1" 404 2452
+WARNING 2023-08-28 16:05:06,834 log 4880 1492 Not Found: /run
+WARNING 2023-08-28 16:05:06,836 basehttp 4880 1492 "GET /run HTTP/1.1" 404 2196
+INFO 2023-08-28 16:08:10,886 autoreload 4880 14664 C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Seminar_1\myproject\myproject\urls.py changed, reloading.
+INFO 2023-08-28 16:08:17,099 autoreload 12156 12116 Watching for file changes with StatReloader
+WARNING 2023-08-28 16:08:19,140 log 12156 6668 Not Found: /
+WARNING 2023-08-28 16:08:19,145 basehttp 12156 6668 "GET / HTTP/1.1" 404 2273
+INFO 2023-08-28 16:08:25,634 views 12156 6668 Index page accessed
+INFO 2023-08-28 16:08:25,637 basehttp 12156 6668 "GET /prefix/ HTTP/1.1" 200 13
+WARNING 2023-08-28 16:08:31,792 log 12156 6668 Not Found: /prefix/run
+WARNING 2023-08-28 16:08:31,796 basehttp 12156 6668 "GET /prefix/run HTTP/1.1" 404 2556
+INFO 2023-08-28 16:08:38,721 basehttp 12156 6668 "GET /run HTTP/1.1" 301 0
+INFO 2023-08-28 16:08:38,741 views 12156 10888 Index page accessed
+INFO 2023-08-28 16:08:38,743 basehttp 12156 10888 "GET /run/ HTTP/1.1" 200 13
+INFO 2023-08-29 07:38:50,030 autoreload 12156 12116 C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Seminar_1\myproject\myapp\urls.py changed, reloading.
+INFO 2023-08-29 07:38:53,578 autoreload 6728 9072 Watching for file changes with StatReloader
+WARNING 2023-08-29 07:38:57,772 log 6728 10360 Not Found: /
+WARNING 2023-08-29 07:38:57,794 basehttp 6728 10360 "GET / HTTP/1.1" 404 2273
+INFO 2023-08-29 07:39:07,290 views 6728 10360 Index page accessed
+INFO 2023-08-29 07:39:07,305 basehttp 6728 10360 "GET /run/ HTTP/1.1" 200 13
+INFO 2023-08-29 07:40:16,456 autoreload 6728 9072 C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Seminar_1\myproject\myapp\views.py changed, reloading.
+INFO 2023-08-29 07:40:17,919 autoreload 14276 14964 Watching for file changes with StatReloader
+INFO 2023-08-29 07:40:21,244 views 14276 9556 Index page accessed
+INFO 2023-08-29 07:40:21,247 basehttp 14276 9556 "GET /run/ HTTP/1.1" 200 13
+INFO 2023-08-29 07:40:23,438 views 14276 9556 Index page accessed
+INFO 2023-08-29 07:40:23,440 basehttp 14276 9556 "GET /run/ HTTP/1.1" 200 13
+INFO 2023-08-29 07:40:24,283 views 14276 9556 Index page accessed
+INFO 2023-08-29 07:40:24,283 basehttp 14276 9556 "GET /run/ HTTP/1.1" 200 13
+INFO 2023-08-29 07:40:24,977 views 14276 9556 Index page accessed
+INFO 2023-08-29 07:40:24,980 basehttp 14276 9556 "GET /run/ HTTP/1.1" 200 13
+INFO 2023-08-29 07:40:25,781 views 14276 9556 Index page accessed
+INFO 2023-08-29 07:40:25,784 basehttp 14276 9556 "GET /run/ HTTP/1.1" 200 13
+INFO 2023-08-29 07:40:26,739 views 14276 9556 Index page accessed
+INFO 2023-08-29 07:40:26,743 basehttp 14276 9556 "GET /run/ HTTP/1.1" 200 13
+INFO 2023-08-29 07:40:27,341 views 14276 9556 Index page accessed
+INFO 2023-08-29 07:40:27,344 basehttp 14276 9556 "GET /run/ HTTP/1.1" 200 13
+INFO 2023-08-29 07:41:38,482 views 14276 9556 Index page accessed
+INFO 2023-08-29 07:41:38,493 basehttp 14276 9556 "GET /run/ HTTP/1.1" 200 13
+INFO 2023-08-29 07:41:42,359 basehttp 14276 9556 "GET /prefix/about HTTP/1.1" 301 0
+ERROR 2023-08-29 07:41:42,367 views 14276 1140 Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Seminar_1\myproject\myapp\views.py", line 15, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2023-08-29 07:41:42,372 basehttp 14276 1140 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2023-08-29 07:41:52,246 basehttp 14276 1140 "GET /prefix/run HTTP/1.1" 301 0
+INFO 2023-08-29 07:41:52,249 views 14276 1836 Index page accessed
+INFO 2023-08-29 07:41:52,257 basehttp 14276 1836 "GET /prefix/run/ HTTP/1.1" 200 27
+INFO 2023-08-29 07:42:06,030 autoreload 14276 14964 C:\Users\79282\PycharmProjects\Sasha\PYTHON\Framework_Django\Seminar_1\myproject\myapp\views.py changed, reloading.
+INFO 2023-08-29 07:42:07,550 autoreload 14140 4756 Watching for file changes with StatReloader
+INFO 2023-08-29 07:42:10,321 basehttp 14140 6168 "GET /prefix/run/ HTTP/1.1" 200 31

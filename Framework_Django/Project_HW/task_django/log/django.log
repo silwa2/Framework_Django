@@ -389,3 +389,990 @@ Not Found: /styles/style.css
 Not Found: /styles/style.css
 "GET /styles/style.css HTTP/1.1" 404 2458
 "GET /about/ HTTP/1.1" 200 1015
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\task_django\settings.py changed, reloading.
+Watching for file changes with StatReloader
+- Broken pipe from ('127.0.0.1', 55531)
+"GET /les4/user/add/ HTTP/1.1" 200 895
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2548
+"GET /les4/user/add/ HTTP/1.1" 200 895
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2548
+"GET / HTTP/1.1" 200 1783
+Not Found: /styles/style.css
+"GET /styles/style.css HTTP/1.1" 404 2563
+"GET /les4/user/add/ HTTP/1.1" 200 895
+Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+"POST /les4/user/add/ HTTP/1.1" 500 67251
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+"POST /les4/user/add/ HTTP/1.1" 500 67251
+"GET /les4/user/add/ HTTP/1.1" 200 895
+"GET /les4/forms HTTP/1.1" 301 0
+"GET /les4/forms/ HTTP/1.1" 200 1430
+Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.many_fields_form didn't return an HttpResponse object. It returned None instead.
+"POST /les4/forms/ HTTP/1.1" 500 67808
+"GET /les4/forms/ HTTP/1.1" 200 1430
+Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+"POST /les4/user/add/ HTTP/1.1" 500 67258
+"GET /les4/forms/ HTTP/1.1" 200 1430
+Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.many_fields_form didn't return an HttpResponse object. It returned None instead.
+"POST /les4/forms/ HTTP/1.1" 500 67688
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.many_fields_form didn't return an HttpResponse object. It returned None instead.
+"POST /les4/forms/ HTTP/1.1" 500 67688
+Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.many_fields_form didn't return an HttpResponse object. It returned None instead.
+"POST /les4/forms/ HTTP/1.1" 500 67688
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/forms/ HTTP/1.1" 200 2051
+Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.many_fields_form didn't return an HttpResponse object. It returned None instead.
+"POST /les4/forms/ HTTP/1.1" 500 67966
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/forms/ HTTP/1.1" 200 2051
+Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.many_fields_form didn't return an HttpResponse object. It returned None instead.
+"POST /les4/forms/ HTTP/1.1" 500 67952
+Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.many_fields_form didn't return an HttpResponse object. It returned None instead.
+"POST /les4/forms/ HTTP/1.1" 500 67948
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/forms/ HTTP/1.1" 200 2051
+Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.many_fields_form didn't return an HttpResponse object. It returned None instead.
+"POST /les4/forms/ HTTP/1.1" 500 67940
+"GET /les4/user/add/ HTTP/1.1" 200 897
+Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+"POST /les4/user/add/ HTTP/1.1" 500 67253
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 866
+"POST /les4/user/ HTTP/1.1" 200 1115
+"POST /les4/user/ HTTP/1.1" 200 1014
+"POST /les4/user/ HTTP/1.1" 200 1014
+"POST /les4/user/ HTTP/1.1" 200 1014
+"POST /les4/user/ HTTP/1.1" 200 1014
+"POST /les4/user/ HTTP/1.1" 200 1015
+"POST /les4/user/ HTTP/1.1" 200 1015
+Internal Server Error: /les4/user/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py", line 43, in add_user
+    user.save()
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1833, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\base\operations.py", line 213, in fetch_returned_insert_columns
+    return cursor.fetchone()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+- Broken pipe from ('127.0.0.1', 57129)
+"POST /les4/user/ HTTP/1.1" 200 929
+"POST /les4/user/ HTTP/1.1" 200 929
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\task_django\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/upload HTTP/1.1" 301 0
+"GET /les4/upload/ HTTP/1.1" 200 553
+Internal Server Error: /les4/upload/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.upload_image didn't return an HttpResponse object. It returned None instead.
+"POST /les4/upload/ HTTP/1.1" 500 67382
+"GET /les4/upload/ HTTP/1.1" 200 553
+Internal Server Error: /les4/upload/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.upload_image didn't return an HttpResponse object. It returned None instead.
+"POST /les4/upload/ HTTP/1.1" 500 67357
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/user/add/ HTTP/1.1" 200 837
+"GET /les4/user HTTP/1.1" 301 0
+"GET /les4/user/ HTTP/1.1" 200 866
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1578
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1565
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1020
+Internal Server Error: /les4/user/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py", line 43, in add_user
+    image = form.cleaned_data['image']
+            ~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'image'
+"POST /les4/user/ HTTP/1.1" 500 67474
+Internal Server Error: /les4/user/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py", line 43, in add_user
+    image = form.cleaned_data['image']
+            ~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'image'
+"POST /les4/user/ HTTP/1.1" 500 67474
+"GET /les4/user/ HTTP/1.1" 200 1020
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1571
+"GET /les4/upload/ HTTP/1.1" 200 553
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1571
+"GET /les4/user/ HTTP/1.1" 200 1571
+"GET /les4/user/ HTTP/1.1" 200 1571
+Watching for file changes with StatReloader
+Internal Server Error: /les4/user/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py", line 51, in add_user
+    return render(request, 'myapp4/user_form.html', {'form': form, 'message': message})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 226, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'content' appears more than once
+"GET /les4/user/ HTTP/1.1" 500 169290
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1575
+"POST /les4/user/ HTTP/1.1" 200 1874
+Watching for file changes with StatReloader
+"POST /les4/user/ HTTP/1.1" 200 1744
+"GET /les4/user/ HTTP/1.1" 200 1445
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1432
+"GET /les4/user/ HTTP/1.1" 200 1432
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1001
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1001
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1001
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1451
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1431
+"GET /les4/user/ HTTP/1.1" 200 1431
+"GET /les4/user/ HTTP/1.1" 200 1431
+"GET /les4/user/ HTTP/1.1" 200 1431
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1002
+"GET /les4/upload/ HTTP/1.1" 200 652
+Internal Server Error: /les4/upload/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.upload_image didn't return an HttpResponse object. It returned None instead.
+"POST /les4/upload/ HTTP/1.1" 500 67377
+Internal Server Error: /les4/upload/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.upload_image didn't return an HttpResponse object. It returned None instead.
+"POST /les4/upload/ HTTP/1.1" 500 67377
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1002
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1002
+"GET /les4/user/ HTTP/1.1" 200 1002
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1002
+"GET /les4/user/ HTTP/1.1" 200 1002
+"GET /les4/user/ HTTP/1.1" 200 1002
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1002
+"GET /les4/user/ HTTP/1.1" 200 1002
+"GET /les4/user/ HTTP/1.1" 200 1002
+"POST /les4/user/ HTTP/1.1" 200 1151
+Internal Server Error: /les4/user/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: table myapp4_user has no column named image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py", line 59, in add_user
+    user.save()
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: table myapp4_user has no column named image
+"POST /les4/user/ HTTP/1.1" 500 148308
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1002
+Internal Server Error: /les4/user/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: table myapp4_user has no column named image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py", line 59, in add_user
+    user.save()
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: table myapp4_user has no column named image
+"POST /les4/user/ HTTP/1.1" 500 148327
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1002
+"GET /les4/user/add/ HTTP/1.1" 200 973
+"GET /les4/user/add/ HTTP/1.1" 200 973
+"GET /les4/user/add/ HTTP/1.1" 200 973
+"GET /les4/user/add/ HTTP/1.1" 200 973
+Internal Server Error: /les4/user/add/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.user_form didn't return an HttpResponse object. It returned None instead.
+"POST /les4/user/add/ HTTP/1.1" 500 67406
+"GET /les4/user/add/ HTTP/1.1" 200 973
+"GET /les4/forms/ HTTP/1.1" 200 2051
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/forms/ HTTP/1.1" 200 2196
+Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.many_fields_form didn't return an HttpResponse object. It returned None instead.
+"POST /les4/forms/ HTTP/1.1" 500 68219
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.many_fields_form didn't return an HttpResponse object. It returned None instead.
+"POST /les4/forms/ HTTP/1.1" 500 68219
+"GET /les4/forms/ HTTP/1.1" 200 2051
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/forms/ HTTP/1.1" 200 2051
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/forms/ HTTP/1.1" 200 2051
+"GET /les4/forms/ HTTP/1.1" 200 2051
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/forms/ HTTP/1.1" 200 2051
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/forms/ HTTP/1.1" 200 2196
+Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.many_fields_form didn't return an HttpResponse object. It returned None instead.
+"POST /les4/forms/ HTTP/1.1" 500 68214
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/forms/ HTTP/1.1" 200 4309
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/forms/ HTTP/1.1" 200 2196
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /les4/forms/ HTTP/1.1" 200 2051
+"GET /les4/forms/ HTTP/1.1" 200 2051
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2674
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2674
+Watching for file changes with StatReloader
+"GET /les4/upload/ HTTP/1.1" 200 503
+Internal Server Error: /les4/upload/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.upload_image didn't return an HttpResponse object. It returned None instead.
+"POST /les4/upload/ HTTP/1.1" 500 67366
+"GET /les4/upload/ HTTP/1.1" 200 503
+"GET /les4/user/ HTTP/1.1" 200 1639
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1639
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1205
+"POST /les4/user/ HTTP/1.1" 200 1381
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1783
+Not Found: /styles/style.css
+"GET /styles/style.css HTTP/1.1" 404 2689
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2674
+"GET /les4/user/ HTTP/1.1" 200 866
+"GET /les4/user/add/ HTTP/1.1" 200 837
+Watching for file changes with StatReloader
+"GET /les4/user/add/ HTTP/1.1" 200 837
+"GET /les4/user/ HTTP/1.1" 200 866
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/123 HTTP/1.1" 301 0
+Internal Server Error: /les4/123/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'get'
+"GET /les4/123/ HTTP/1.1" 500 64643
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 6194
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+Internal Server Error: /admin/myapp4/user/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: myapp4_user.cover
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: myapp4_user.cover
+"GET /admin/myapp4/user/ HTTP/1.1" 500 158371
+Watching for file changes with StatReloader
+"GET /admin/myapp4/ HTTP/1.1" 200 5049
+Internal Server Error: /admin/myapp4/user/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: myapp4_user.cover
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: myapp4_user.cover
+"GET /admin/myapp4/user/ HTTP/1.1" 500 158378
+Not Found: /admin/myapp4/upload
+"GET /admin/myapp4/upload HTTP/1.1" 404 4511
+Not Found: /admin/myapp4/forms
+"GET /admin/myapp4/forms HTTP/1.1" 404 4508
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /admin/myapp4/forms
+"GET /admin/myapp4/forms HTTP/1.1" 404 4336
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/forms/ HTTP/1.1" 200 2051
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /les4/forms/ HTTP/1.1" 200 2196
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/forms/ HTTP/1.1" 200 2196
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\PycharmProjects\Django\Framework_Django\Framework_Django\Project_HW\task_django\myapp4\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /les4/user2 HTTP/1.1" 301 0
+Internal Server Error: /les4/user2/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: user_create.html
+"GET /les4/user2/ HTTP/1.1" 500 80791
+Watching for file changes with StatReloader
+Internal Server Error: /les4/user2/
+Traceback (most recent call last):
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: user_create.html
+"GET /les4/user2/ HTTP/1.1" 500 80928
+"GET /les4/user/ HTTP/1.1" 200 1014
+"POST /les4/user/ HTTP/1.1" 200 1129
+Watching for file changes with StatReloader
+"POST /les4/user/ HTTP/1.1" 200 1129
+"GET /les4/user/ HTTP/1.1" 200 1014
+"POST /les4/user/ HTTP/1.1" 200 1129
+"POST /les4/user/ HTTP/1.1" 200 1126
